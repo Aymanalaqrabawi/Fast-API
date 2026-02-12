@@ -1,4 +1,1 @@
 # install libriry to work on fast api 
-fastapi==0.111.1
-uvicorn[standard]==0.23.2
-pydantic==2.6.2
