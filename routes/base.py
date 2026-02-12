@@ -1,6 +1,9 @@
 from fastapi import FastAPI,APIRouter
-base = APIRouter()
-@base.get("/")
+base_routers = APIRouter(
+prefix="/base",
+tags=["base"]
+)
+@base_routers.get("/")
 def welcome():   
      return {"Hello": "World"}
 
